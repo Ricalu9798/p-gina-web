@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/*pseudo clase root */ 
+:root{
+    scroll-behavior: smooth; /*genera el desplazamiento al hacer click en las opciones */ 
+}
+
 body{
     font-family: 'Poppins', sans-serif;
  
@@ -15,4 +20,36 @@ body{
     overflow: hidden; /* para que todo lo que se desborde se oculte*/ 
     margin: auto;  /*para que todo se centre */ 
     padding: 60px 0;
+}
+
+header{
+    height: 80vh; /*qué tanto abarca la imagen */
+    background-image: linear-gradient(to right, rgba(250, 112, 153, 0.473) 0%, rgba(254, 225, 64, 0.418) 100%), url(imagenes/Couple_Flatline.png);
+    /*imagen de fondo del color */
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*textos están en un contenedor llamado head */
+.head{
+padding: 0;
+height: 100%;
+display: flex; /*posicionar vertical y horizontalmente al centro */
+justify-content: center;
+align-items: center;
+flex-direction: column; /*para que el texto no se encuentre en el mismo renglón*/
+}
+
+.menu{
+    position: fixed; /*fijo en toda la página*/
+    top: 30px; /*tamaño*/
+    right: 30px; /*tamaño*/
+    background: white;
+    width: 50px;
+    height: 50px;
+    cursor: pointer; /*al pasar la mano sobre el se pone la manita*/
+    border-radius: 10px; /*contorno*/
+    box-shadow: 0 0 6px rgba(0,0,0);
+ 
+
 }
