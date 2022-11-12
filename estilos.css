@@ -63,9 +63,9 @@ flex-direction: column; /*para que el texto no se encuentre en el mismo renglón
     flex-direction: column; /*para que el texto no se encuentre en el mismo renglón*/
     justify-content: space-evenly; /*para que exista un espacio equitativo*/
     align-items: center;
-    transition: transform .3s ease-in-out;
-    transform: translate(110%); /*el menu se traslad un 110% para que no sea observable en la pantalla*/
-    box-shadow: 0 0 6px rgba (0,0,0,0.5);
+    /*transition: transform .3s ease-in-out;*/
+    transform: translate(0%); /*el menu se traslad un 110% para que no sea observable en la pantalla*/
+    box-shadow: 0 0 6px rgba(0,0,0);
 }
 
 /*opcion*/
@@ -146,3 +146,30 @@ flex-direction: column; /*para que el texto no se encuentre en el mismo renglón
     box-shadow: 0 0 6px rgba (0,0,0,0.5);
     cursor: pointer;
 }
+
+.comun{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont-comun{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;   
+}
+
+.cont-comun img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.n-comun{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+}
+
