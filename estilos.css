@@ -90,11 +90,13 @@ header{
 .titulo{
     font-size: 60 px;
     margin-bottom: 15px;
+    color: white;
 }
 
 .copy{
     font-weight: 300;
     font-size: 35px;
+    color: white;
 }
 
 .subtitulo{
@@ -148,15 +150,17 @@ header{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+
 }
 
 .img-galeria{
     object-fit: cover;
-    width: 30%;
+    width: 45%;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     box-shadow: 0 0 6px rgba (0,0,0,0.5);
     cursor: pointer;
+    text-align: center;
 }
 
 
