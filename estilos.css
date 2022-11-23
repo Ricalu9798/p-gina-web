@@ -11,7 +11,8 @@
 
 body{
     font-family: 'Poppins', sans-serif;
- 
+    background-image: linear-gradient(to right, rgba(112, 234, 250, 0.123) 0%, rgba(254, 225, 64, 0.089) 100%), url(imagenes/fondo.jpg);
+   
 }
 
 .contenedor{
