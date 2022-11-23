@@ -11,12 +11,12 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to right, rgba(112, 234, 250, 0.123) 0%, rgba(254, 225, 64, 0.089) 100%), url(imagenes/fondo.jpg);
-   
+    background-image: linear-gradient(to right, rgba(112, 234, 250, 0.116) 0%, rgba(64, 200, 254, 0.103) 100%), url(imagenes/fondo.jpg);
+    
 }
 
 .contenedor{
-    width: 90%;
+    width: 1000%;
     max-width: 1200px;
     overflow: hidden; /* para que todo lo que se desborde se oculte*/ 
     margin: auto;  /*para que todo se centre */ 
@@ -24,7 +24,7 @@ body{
 }
 
 header{
-    height: 80vh; /*qué tanto abarca la imagen */
+    height: 70vh; /*qué tanto abarca la imagen */
     background-image: linear-gradient(to right, rgba(250, 112, 153, 0.473) 0%, rgba(254, 225, 64, 0.418) 100%), url(imagenes/Couple_Flatline.png);
     /*imagen de fondo del color */
     background-attachment: fixed;
@@ -144,7 +144,7 @@ header{
 }
 
 .gallery{
-    background: white;
+    background-image: linear-gradient(to right, rgba(112, 234, 250, 0.021) 0%, rgba(254, 225, 64, 0.055) 100%), url(imagenes/fondo.jpg);
 }
 
 .contenedor-galeria{
