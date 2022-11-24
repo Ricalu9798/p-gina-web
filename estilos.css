@@ -196,7 +196,7 @@ header{
 
 
 
-@media (min-width: 400px)and (max-width:800px){
+@media (min-width: 300px)and (max-width:600px){
 
     .contenedor{
         width: 80%;
