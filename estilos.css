@@ -11,7 +11,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to right, rgba(112, 234, 250, 0.116) 0%, rgba(64, 200, 254, 0.103) 100%), url(imagenes/fondo.jpg);
+    background-image: linear-gradient(to right, rgba(112, 234, 250, 0.116) 0%, rgba(64, 200, 254, 0.103) 100%), url(imagenes/fondotres.jpg);
     
 }
 
@@ -144,7 +144,7 @@ header{
 }
 
 .gallery{
-    background-image: linear-gradient(to right, rgba(112, 234, 250, 0.021) 0%, rgba(254, 225, 64, 0.055) 100%), url(imagenes/fondo.jpg);
+    background-image: linear-gradient(to right, rgba(112, 234, 250, 0.021) 0%, rgba(254, 225, 64, 0.055) 100%), url(imagenes/fondodos.jpg);
 }
 
 .contenedor-galeria{
@@ -157,7 +157,7 @@ header{
 .img-galeria{
     object-fit: cover;
     width: 45%;
-    display: block;
+    display:block;
     margin-bottom: 30px;
     box-shadow: 0 0 6px rgba (0,0,0,0.5);
     cursor: pointer;
