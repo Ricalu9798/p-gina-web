@@ -11,7 +11,11 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to right, rgba(112, 234, 250, 0.116) 0%, rgba(64, 200, 254, 0.103) 100%), url(imagenes/fondotres.jpg);
+    height: 70vh; /*qué tanto abarca la imagen */
+    background-image: linear-gradient(to right, rgba(250, 112, 153, 0.473) 50%, rgba(254, 225, 64, 0.418) 100%), url(imagenes/halloween3.png);
+    /*imagen de fondo del color */
+    background-attachment: fixed;
+    background-position: center;
     
 }
 
@@ -25,7 +29,7 @@ body{
 
 header{
     height: 70vh; /*qué tanto abarca la imagen */
-    background-image: linear-gradient(to right, rgba(250, 112, 153, 0.473) 0%, rgba(254, 225, 64, 0.418) 100%), url(imagenes/Couple_Flatline.png);
+    background-image: linear-gradient(to right, rgba(250, 112, 153, 0.473) 0%, rgba(254, 225, 64, 0.418) 100%), url(imagenes/halloween3.png);
     /*imagen de fondo del color */
     background-attachment: fixed;
     background-position: center;
@@ -114,6 +118,7 @@ header{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap; /*si el contenido ya no cabe pasa al siguiente renglón*/
+    
 }
 
 .contenedor-recuerdos img{
@@ -144,20 +149,20 @@ header{
 }
 
 .gallery{
-    background-image: linear-gradient(to right, rgba(112, 234, 250, 0.021) 0%, rgba(254, 225, 64, 0.055) 100%), url(imagenes/fondodos.jpg);
+    background-image: linear-gradient(to right, rgba(250, 112, 153, 0.473) 0%, rgba(92, 64, 254, 0.418) 100%)
 }
 
 .contenedor-galeria{
-    display: flex;
-    justify-content: space-evenly;
+    display:inline-flex;
+    justify-content:center;
     flex-wrap: wrap;
 
 }
 
 .img-galeria{
     object-fit: cover;
-    width: 45%;
-    display:block;
+    width: 25%;
+    display:inline-table;
     margin-bottom: 30px;
     box-shadow: 0 0 6px rgba (0,0,0,0.5);
     cursor: pointer;
